@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>系烤報名網頁</title>
+        <meta charset="UTF-8">
+    </head>
+    <body text="305079" bgcolor="#E0B297">
+        
+       
+        <center>
+            <h1>
+            <font size=9 color=#972421 face="Segoe Print">
+             BBQ
+            </font>
+            </h1>
+            <h2>
+                <p>
+                <IMG SRC="bbq/people.jpg" width="50%" border="5"></IMG><br/>
+                <font size=3 face="微軟正黑">
+                </p>
+                <p>
+                    來參加我們的烤肉活動，讓你的味蕾感受火熱的烤肉滋味！<br/>
+
+                    香噴噴的烤肉配上冰冷的啤酒，讓你的夏日生活更加完美!<br/>
+                
+                    不論是家庭聚會、公司活動或是好友聚會，烤肉都是一個不可或缺的經典選擇:)<br/>
+                
+                    無論你是肉食主義者或是素食主義者，我們的烤肉活動都有合適的選擇，讓每個人都能盡情享受.<br/>
+                
+                    趁著陽光明媚的好天氣，和朋友一起來烤肉，享受悠閒愜意的時光~<br/>
+                
+                    熱騰騰的烤肉、美味的醬料、豐富的飲品，讓你感受到真正的美食饗宴!<br/>
+                
+                    烤肉活動不僅僅是美食，更是一個讓人聚集、交流、放鬆的場所，讓你的心情也跟著變得愉悅起來!<br/>
+                </p>
+                </font>
+                
+                <font size=9 color=#972421 face="微軟正黑">
+                    行程表
+                <p>
+                    <table border="5">
+                        <tr><th>活動</th><th>地點</th><th>時間</th><th>活動內容</th></tr>
+                        <tr><td>事前準備</td><td>烤肉區</td><td>9:00-12:00</td>
+                            <td>
+                                <UL>
+                                    <LI>準備場地和烤肉用具
+                                    <LI>購買和準備食材，進行必要的處理和調味
+                                    <LI>安排其他活動和娛樂節目，如音樂表演、遊戲和晚會等
+                                </UL>
+                            </td></tr>
+                        <tr><td>烤肉時間</td><td>烤肉區</td><td>12:00-16:00</td><td>開始烤肉，品嘗美味的烤肉</td></tr>
+                        <tr><td>自由活動</td><td>烤肉區</td><td>16:00-19:00</td><td>社交時間，讓大家聚在一起進行輕鬆的交流和活動</td></tr>
+                        <tr><td>活動時間</td><td>烤肉區</td><td>19:00-21:00</td>
+                        <td>
+                            <UL>
+                                <LI>營火晚會
+                                <LI>餘興節目
+                                <LI>音樂表演
+                                <LI>夜間遊戲
+                            </UL>
+                        </td></tr>
+                        <tr><td>場復時間</td><td>烤肉區</td><td>21:00-22:00</td><td>收拾現場和烤肉用具</td></tr>
+                    </table>
+                </p>
+                </font>
+<hr>
+                <font size=9 color=#972421 face="微軟正黑">
+                    系烤活動報名表單
+                    </font>
+                    <p>
+                    <form action="1.php" method="post">
+                    <font size=3 color=#305079 face="微軟正黑">
+                    請輸入您的姓名:<input type="text" name="name" placeholder="Chinese only" required><br/>
+                    請輸入您的聯絡電話:<input type="text" name="phone" placeholder="09XX-XXX-XXX" required><br/>
+                    請輸入您的信箱:<input type="email" name="mail" required><br/>
+                    請選擇您的性別:
+                    男<input type="radio" name="mail">
+                    女<input type="radio" name="femail"><br/>
+                    請選擇您有興趣的活動:
+                    <select>
+                        <option>烤肉大賽
+                        <option>音樂表演
+                        <option>營火晚會
+                        <option>夜間遊戲
+                        <option>其他
+                    </select><br/>
+                    請選擇您可出席系烤活動的時間:<input type="date"><br/>
+                    飲食限制:
+                    葷食<input type="checkbox" name="meat" >
+                    素食<input type="checkbox" name="veg" ><br/>
+                    是否攜帶自己的烤肉用具?
+                    是<input type="checkbox" name="yes" >
+                    否<input type="checkbox" name="no" ><br/>
+                    請問您有任何需求或建議嗎?<br/>
+                    <textarea cols="50" row="100"></textarea><br/>
+                    <input type="submit">
+                    <input type="reset">
+                </p>
+                </font>
+                <p>
+                 <font size=2 color=#917E91 face="微軟正黑">
+                    備註：活動詳細信息將通過電子郵件或簡訊發送，請注意查收。
+                    感謝您的參與!
+                </p>
+                </font>
+            </form>
+        </h2>
+        <IMG SRC="bbq/meat.jpg" width="50%" border="2"></IMG><br/>
+        <a href="#top">回頁首</a>
+        </center>
+
+
+    </body>
+</html>
